@@ -1,0 +1,99 @@
+.header {
+    background: #88CEFB;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    position: relative;
+}
+
+body {
+    background-color: white;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+}
+
+i,
+a.navbar-brand {
+    color: white;
+    font-size: 22px;
+}
+
+i {
+    text-align: left;
+}
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.flexible {
+    display: inline-flex;
+    border: black outset 1.5px;
+    width: 97.5%;
+    height: 170px;
+    margin: 5px;
+}
+
+.btn-group .button {
+    display: inline-flex;
+    background-color: #6996F6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.btn-group .button:hover {
+    background-color: #5E4CF4;
+}
+
+.button1 {
+    font-size: 16px;
+    background-color: #6996F6;
+    border: 1px solid black;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.button1:hover {
+    background-color: #5E4CF4;
+    border: 1px solid black;
+}
+
+section {
+    margin: 10px;
+}
+
+@media (min-width:750px) {
+    .flexible {
+        width: 45%;
+        height: 200px;
+        margin: 5px;
+        margin-left: 0%;
+    }
+    section {
+        margin-left: 10px;
+    }
+}

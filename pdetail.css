@@ -1,0 +1,123 @@
+.header {
+    background: #88CEFB;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    position: relative;
+}
+
+.btn-group .button {
+    display: inline-flex;
+    background-color: #6996F6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.btn-group .button:hover {
+    background-color: #5E4CF4;
+}
+
+body {
+    background-color: white;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+i,
+a.navbar-brand {
+    color: white;
+    font-size: 22px;
+}
+
+i {
+    text-align: left;
+}
+
+section {
+    margin: 10px;
+}
+
+.flex {
+    display: flex;
+    content: "";
+    border: 1px solid black;
+    width: 440px;
+    height: 200px;
+    clear: both;
+    display: flex;
+    overflow: hidden;
+}
+
+.flex a {
+    align-self: flex-end;
+    cursor: pointer;
+    height: 48px;
+}
+
+.detail {
+    display: block;
+    width: 100%;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    height: 70%;
+}
+
+.cart-btn {
+    display: flex;
+    padding: 15px 15px;
+    background-color: #6996F6;
+    position: relative;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.cart-btn:hover {
+    background-color: #5E4CF4;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width:750px) {
+    .flex {
+        width: 700px;
+        height: 250px;
+    }
+    .cart-btn {
+        padding: 15px 15px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        float: right;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        padding-left: 15px;
+        padding-top: 15px;
+        padding-right: 15px;
+    }
+}
